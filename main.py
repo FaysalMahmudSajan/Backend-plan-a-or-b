@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://faysalmahmudsajan.github.io/Frontend-plan-a-or-b/frontend/"],
+    allow_origins=["https://github.com/FaysalMahmudSajan"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
